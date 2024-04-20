@@ -1,0 +1,69 @@
+.title__bio {
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+    color: var(--color-sec);
+    
+    
+  
+}
+.title_sub{
+    font-size: 1.5rem;
+    font-weight: bolder;
+    margin-bottom: 1rem;
+    color: var(--color-ter);
+    
+
+}
+
+.title__subsection {
+
+    font-size: 1.3rem;
+    font-weight: lighter;
+    margin-bottom: 1rem;
+    color: var(--color-sec);
+    
+   
+}
+
+.title__network {
+    display: flex;
+    gap: 2rem;
+ 
+    white-space: nowrap;
+    margin: 0 8rem;
+   
+
+}
+
+.title__network__item{
+    padding: 3px;
+    background-color: var(--color-decimo);
+    border-radius: 5px;
+    filter: grayscale(1);
+}
+.title__network__item:hover {
+    color: var(--color-sec);
+    filter: grayscale(0);
+}
+
+@media (max-width: 768px) {
+    .title__bio {
+        font-size: 1.8rem;
+    }
+
+    .title__subsection {
+        font-size: 1rem;
+    }
+
+    .title__network__item {
+        font-size: .9rem;
+    }
+}
+
+@media (max-width:425px) {
+    .title__bio {
+        font-size: 1.2rem;
+    }
+
+}

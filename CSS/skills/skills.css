@@ -1,0 +1,26 @@
+.skills{
+    padding: 2rem;
+    background-image: linear-gradient(
+        rgba(0,0,0,0.7),
+        rgba(0,0,0,0.7)),
+        url(../../assets/Imagenes/street-art-2410388_1280.jpg);
+        background-position: center bottom;
+        background-repeat: no-repeat;
+        background-size: cover;
+        min-height: 100vh;
+        display: flex;
+        align-items: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+ 
+}
+
+.skills__title  {
+    font-size: 3rem;
+    margin-bottom: 2rem;
+    color: var(--color-cuarto);
+    
+}

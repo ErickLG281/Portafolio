@@ -1,0 +1,20 @@
+.academic {
+  padding: 6rem;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url(../../assets/Imagenes/marjan-blan-wufwf6-h5DM-unsplash.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  padding: 100px 0;
+}
+
+.academic__title {
+  font-size: 2rem;
+  margin-bottom: 2rem;
+  color: var(--color-sec);
+}

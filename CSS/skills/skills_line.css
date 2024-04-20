@@ -1,0 +1,81 @@
+.skill_conatiner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+    background: black;
+  border-radius: 15px;
+  padding: 1.5rem;
+}
+
+.skills__scroll {
+  position: relative;
+  display: flex;
+  width: 80rem;
+  overflow: hidden;
+  mask-image: linear-gradient(
+    to right,
+    transparent,
+    black 6rem,
+    black calc(79% - 20px),
+    transparent
+  );
+}
+
+.skills__scroll div {
+  white-space: nowrap;
+  animation: animate var(--t) linear infinite;
+  animation-delay: calc(var(--t) * -1);
+}
+
+.skills__scrolldiv:nth-child(2) {
+  animation: animate2 var(--t) linear infinite;
+  animation-delay: calc(var(--t) / 2);
+}
+
+@keyframes animate {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
+@keyframes animate2 {
+  0% {
+    transform: translateX(100%);
+  }
+  100% {
+    transform: translateX(-200%);
+  }
+}
+
+.skills__scroll div li {
+  display: inline-flex;
+  margin: 10px;
+  letter-spacing: 0.2em;
+
+  background: #333;
+  color: #fff;
+  padding: 1rem 1.5rem;
+  border-radius: 8px;
+  transition: 0.5s;
+  white-space: nowrap;
+
+  flex-direction: column;
+  gap: 1rem;
+  align-items: center;
+  font-size: 0.9rem;
+  filter: grayscale(1);
+}
+
+.skills__scroll div li:hover {
+  background: var(--color-noveno);
+  filter: grayscale(0);
+}
+.skills__scroll img {
+  height: 5rem;
+  width: 5rem;
+}

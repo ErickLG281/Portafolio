@@ -1,0 +1,92 @@
+.experience {
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: var(--color-noveno);
+  border-radius: 20px;
+  margin: 1.5rem 2rem;
+}
+
+.experience__section__title {
+  font-size: 2rem;
+  margin-bottom: 2rem;
+  color: var(--color-decimo);
+  text-align: center;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+.general {
+  display: flex;
+}
+
+.general-1 {
+  width: 50%;
+  padding: 8rem 250px 100px 7rem;
+  background-color: #e1e2e6;
+}
+
+.general-2 {
+  background-image: url(../../assets/decod_print.png);
+
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 50%;
+}
+
+.general-3 {
+  background-image: url(../../CSS/images/coffee-2.jpg);
+
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 50%;
+}
+
+.sub_tec {
+  display: flex;
+
+  padding: 0.8rem;
+  text-transform: uppercase;
+  color: var(--color-principal);
+}
+
+.Contenedor__tec li {
+  display: inline-flex;
+  margin: 1.5px;
+  letter-spacing: 0.2em;
+  background: #333;
+  color: #fff;
+  padding: 1rem 1.2rem;
+  border-radius: 8px;
+
+  flex-wrap: wrap;
+
+  filter: grayscale(1);
+}
+
+.Herramienta__Usada img {
+  height: 3.2rem;
+  width: 3.2rem;
+}
+
+.description {
+  padding: 1.5rem;
+  color: var(--color-principal);
+}
+
+h2 {
+  font-size: 55px;
+  line-height: 70px;
+  color: #323337;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+}
+
+p {
+  font-size: 16px;
+  color: #414247;
+  margin-bottom: 25px 0 45px;
+}

@@ -1,0 +1,16 @@
+.title_info{
+    display: flex;
+    flex-direction: column;
+    
+    align-items: center;
+
+    padding: 12px;
+    margin: 3rem;    
+    margin-bottom: -1.5rem;
+    margin-top: -2rem;
+    
+    
+
+   
+ 
+}

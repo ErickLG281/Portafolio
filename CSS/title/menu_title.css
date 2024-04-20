@@ -1,0 +1,23 @@
+.menu-title{
+    text-align: center;
+  
+    
+}
+
+
+.btn-1{
+    display: inline-block;
+    padding: 11px 35px;
+    background-color: var(--color-cuarto);
+    color: #f9fafc;
+    text-transform: uppercase;
+    border-radius: 30px;
+    
+
+}
+.btn-1:hover{
+    background-color: #f9fafc;
+    color:  var(--color-cuarto);
+    transition: all 0.5s ease-in-out;
+}
+
