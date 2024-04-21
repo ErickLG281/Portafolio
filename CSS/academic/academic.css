@@ -18,3 +18,9 @@
   margin-bottom: 2rem;
   color: var(--color-sec);
 }
+
+@media (max-width: 425px) {
+  .academic__title {
+    font-size: 1.5rem;
+  }
+}

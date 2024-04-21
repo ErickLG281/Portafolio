@@ -1,9 +1,6 @@
 .formcontato {
     background-color: var(--color-primario);
-   
-    border-radius: 50px;
-    margin: 1rem 1.5rem;
-
+    padding: 2rem 8rem;
 }
 
 .formcontato__contacto {

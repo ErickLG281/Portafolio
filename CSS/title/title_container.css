@@ -66,4 +66,8 @@
         font-size: 1.2rem;
     }
 
+    .title__network__item{
+        padding: 2px;
+        
+    }
 }

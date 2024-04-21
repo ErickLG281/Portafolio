@@ -67,3 +67,23 @@
   height: 5rem;
   width: 5rem;
 }
+
+
+@media(max-width: 425px) {
+
+  .skill_conatiner {
+    
+    padding: .5rem;
+  }
+  .skills__scroll {
+    width: 20rem;
+  }
+  .skills__scroll div li {
+    padding: 0.5rem 1rem;
+    font-size: 0.7rem;
+  }
+  .skills__scroll img {
+    height: 3rem;
+    width: 3rem;
+  }
+}

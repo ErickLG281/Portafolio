@@ -24,3 +24,9 @@
     color: var(--color-cuarto);
     
 }
+
+@media(max-width: 425px){
+    .skills__title{
+        font-size: 2rem;
+    }
+}

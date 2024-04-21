@@ -25,6 +25,7 @@
   display: none;
 }
 
+/* Falta el 768*/
 @media (max-width: 768px) {
   .menu__list__item__contato {
     display: block;
@@ -44,6 +45,7 @@
   }
   .menu__list__item__contato a {
     font-weight: 500;
-    font-size: 0.6rem;
+    font-size: .7rem;
+    font-weight: bold;
   }
 }

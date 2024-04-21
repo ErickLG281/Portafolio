@@ -1,7 +1,8 @@
 .about_Me{
     display: inline-flex;
     gap: 1.5rem;
-padding: 1rem 2rem;
+
+
 
 
 }
@@ -19,8 +20,23 @@ padding: 1rem 2rem;
     margin: auto 1rem;
     color: var(--color-principal);
     font-weight: bolder;
+}
 
-
-   
- 
+@media (max-width: 425px) {
+    .about_Me{
+       flex-direction: column;
+        gap: 1.5rem;
+       
+       margin-left: -1rem;
+       
+        
+    }
+    .about__img{
+        width: 300px;
+        height: 300px;
+        margin: 1rem 1rem;
+    }
+    .about__text{
+        font-size: 1rem;
+    }
 }

@@ -2,16 +2,16 @@
   width: 45%;
   margin: auto;
   position: relative;
-    padding: 10rem;
+   
   
 }
 .formcontato__img {
-  width: 35rem;
-  height: 35rem;
+  width:80%;
   margin: auto;
   display: block;
+  
 
-  border-radius: 20px;
+  border-radius: 15px;
 }
 @media (max-width: 768px) {
   .formcontato--esquerda {

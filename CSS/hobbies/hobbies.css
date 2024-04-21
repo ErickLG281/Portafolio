@@ -13,3 +13,9 @@
     margin-bottom: 2rem;
     color: var(--color-cuarto);
 }
+
+@media(max-width: 425px){
+    .hobbies__title{
+        font-size: 2rem;
+    }
+}

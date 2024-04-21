@@ -2,7 +2,7 @@
    margin: 0 auto;
    max-width: 1200px;
    text-align: center;
-
+  
 
 }
 
@@ -19,8 +19,8 @@
 }
 @media (max-width:425px){
    .title__div{
-    flex-direction: column;
-    justify-content: flex-start;
-    align-items: flex-start;
+    display: flex;
+      flex-direction: column;
+      max-width: 120px;
    }
 }

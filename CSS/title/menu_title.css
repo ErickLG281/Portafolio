@@ -1,7 +1,7 @@
 .menu-title{
     text-align: center;
   
-    
+
 }
 
 
@@ -13,6 +13,7 @@
     text-transform: uppercase;
     border-radius: 30px;
     
+    
 
 }
 .btn-1:hover{
@@ -21,3 +22,9 @@
     transition: all 0.5s ease-in-out;
 }
 
+ 
+@media (max-width: 425px) {
+    .btn-1{
+        padding: 8px 25px;
+    }
+}

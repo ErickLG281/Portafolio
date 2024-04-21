@@ -1,3 +1,4 @@
+
 :root {
     --color-primario: #142426;
     --color-sec: #f0f0f2;
@@ -19,6 +20,9 @@
     line-height: 1;
 
 
+}
+body {
+    overflow-x: hidden;
 }
 
 ol,

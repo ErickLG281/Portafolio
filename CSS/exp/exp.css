@@ -36,7 +36,7 @@
 }
 
 .general-3 {
-  background-image: url(../../CSS/images/coffee-2.jpg);
+  background-image: url(../../assets/ImagenesProyect/Alura-Play.png);
 
   background-position: center center;
   background-repeat: no-repeat;
@@ -53,6 +53,9 @@
   width: 50%;
 }
 
+.imgproyect{
+  display: none;
+}
 .sub_tec {
   display: flex;
 
@@ -99,4 +102,73 @@ p {
   font-size: 16px;
   color: #414247;
   margin-bottom: 25px 0 45px;
+}
+
+
+@media (max-width: 425px) {
+  .experience {
+    padding: 10rem;
+    background-color: aqua;
+  }
+
+  .experience__section__title {
+    font-size: 1.5rem;
+  }
+
+  .general {
+    flex-direction: column;
+  }
+
+  .general-1 {
+    width: 100%;
+   
+    padding: 2rem;
+  }
+
+  .general-2 {
+    display: none;
+  }
+
+  .general-3 {
+    display: none;
+  }
+
+  .general-4 {
+    display: none;
+  }
+
+  .imgproyect{
+    display: block;
+    width: 100%;
+    height: 100%;
+    margin-bottom: 1rem;
+    border-radius: 14px;
+  }
+
+  .sub_tec {
+    font-size: 1rem;
+  }
+
+  .Contenedor__tec li {
+    padding: 0.5rem 0.7rem;
+    font-size: 0.7rem;
+  }
+
+  .Herramienta__Usada img {
+    height: 2rem;
+    width: 2rem;
+  }
+
+  .description {
+    font-size: 1rem;
+  }
+
+  h2 {
+    font-size: 1.5rem;
+    line-height: 2rem;
+  }
+
+  p {
+    font-size: 1rem;
+  }
 }
