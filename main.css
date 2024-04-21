@@ -47,3 +47,9 @@ textarea {
     border: none;
     outline: none;
 }
+
+@media(max-width: 1350px) {
+    body{
+        overflow-x: hidden !important;
+    }
+}
