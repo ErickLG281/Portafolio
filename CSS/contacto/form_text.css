@@ -1,22 +1,24 @@
 .formcontato__text {
-    width: 55%;
+    width: 50%;
     display: flex;
     flex-direction: column;
     justify-content: center;
+   
+    padding: 10rem;
     
 }
 
 .formcontato__title {
     font-size: 2rem;
     margin-bottom: 1rem;
-    color: var(--color-decimo);
+    color: var(--color-sec);
 }
 
 .formcontato__subtext {
     font-size: 1rem;
     font-weight: normal;
     margin-bottom: .3rem;
-    color: var(--color-decimo);
+    color: var(--color-sec);
 }
 
 .formcontato__form {
@@ -36,15 +38,15 @@
     padding: 1rem;
     width: 100%;
     border-radius: 10px;
-    background-color: var(--color-sexto);
-    color: var(--color-septimo);
+    color: var(--color-sec);
+    color: var(--color-principal);
 }
 
 .validar-estado {
     position: absolute;
-    font-size: 1rem;
+    font-size: 1.2rem;
     right: 0;
-    color: var(--color-primario);
+    color: var(--color-quinto);
     opacity: 0;
 }
 .incorrecto .validar-estado{
@@ -52,7 +54,7 @@
 }
 .correcto .validar-estado{
     opacity: 1;
-    color: var(--color-quinto);
+    color: var(--color-septimo);
 }
 
 .formcontato__textarea {
@@ -65,20 +67,20 @@
 }
 
 .formcontato__botao {
-    width: 30%;
+    width: 35%;
     padding: 1rem ;;
-    color: var(--color-primario);
-    background-color: var(--color-octavo);
-    border: 1px solid var(--color-octavo);
+    color: var(--color-sec);
+    background-color: var(--color-cuarto);
+    border: 1px solid var(--color-cuarto);
     cursor: pointer;
     border-radius: 1rem;
     
 }
 
 .formcontato__botao:hover {
-    color: var(--color-noveno);
-    background-color: var(--color-septimo);
-    border: 1px solid var(--color-septimo);
+    color: var(--color-cuarto);
+    background-color: var(--color-sec);
+    border: 1px solid var(--color-sec);
 }
 
 @media (max-width: 768px) {

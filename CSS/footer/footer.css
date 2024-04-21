@@ -1,5 +1,11 @@
 .footer {
     padding: 2rem;
     text-align: center;
-    background-color: var(--color-decimo);
+    background-color: black;
+    
+}
+
+.footer p{
+    color: var(--color-sec);
+    padding: 8px;
 }

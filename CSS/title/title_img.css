@@ -1,7 +1,10 @@
 .title__profile {
-    width: 20rem;
-    height: 20rem; 
+    width: 35rem;
+    height: 35rem; 
+    border-radius: 15px;
+    filter: grayscale(1);
  }
+ 
  
  @media (max-width: 768px) {
     .title__profile {

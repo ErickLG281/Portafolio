@@ -28,8 +28,7 @@
 }
 
 .general-2 {
-  background-image: url(../../assets/decod_print.png);
-
+  background-image: url(../../assets/ImagenesProyect/incriptadortxt.png);
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -38,6 +37,15 @@
 
 .general-3 {
   background-image: url(../../CSS/images/coffee-2.jpg);
+
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 50%;
+}
+
+.general-4 {
+  background-image: url(../../assets/ImagenesProyect/Alura\ Barber.png);
 
   background-position: center center;
   background-repeat: no-repeat;
@@ -61,10 +69,12 @@
   color: #fff;
   padding: 1rem 1.2rem;
   border-radius: 8px;
-
   flex-wrap: wrap;
-
   filter: grayscale(1);
+}
+
+.Contenedor__tec :hover {
+  filter: grayscale(0);
 }
 
 .Herramienta__Usada img {
