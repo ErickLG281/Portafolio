@@ -17,6 +17,19 @@
    
  
 }
+@media (max-width: 800px){
+   .title__div{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+      max-width: 750px;
+   
+      
+   }
+}
+
+
 @media (max-width:425px){
    .title__div{
     display: flex;

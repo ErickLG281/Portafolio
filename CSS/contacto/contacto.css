@@ -11,7 +11,9 @@
     position: relative;
 }
 
-@media (max-width:768px) {
+
+
+@media (max-width:800px) {
     .formcontato {
         padding: 2rem;
     }

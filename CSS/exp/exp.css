@@ -104,6 +104,79 @@ p {
   margin-bottom: 25px 0 45px;
 }
 
+@media (max-width: 1350px) {
+  .general-1 {
+    padding: 8rem 100px 100px 7rem;
+  }
+}
+
+@media(max-width: 800px){
+  .experience {
+    padding: 10rem;
+    background-color: aqua;
+  }
+
+  .experience__section__title {
+    font-size: 1.8rem;
+  }
+
+  .general {
+    flex-direction: column;
+  }
+
+  .general-1 {
+    width: 100%;
+    padding: 2rem;
+  }
+
+  .general-2 {
+    display: none;
+  }
+
+  .general-3 {
+    display: none;
+  }
+
+  .general-4 {
+    display: none;
+  }
+
+  .imgproyect{
+    display: block;
+    width: 100%;
+    height: 100%;
+    margin-bottom: 1rem;
+    border-radius: 14px;
+  }
+
+  .sub_tec {
+    font-size: 1.5rem;
+  }
+
+  .Contenedor__tec li {
+    padding: 0.5rem 0.7rem;
+    font-size: 0.7rem;
+  }
+
+  .Herramienta__Usada img {
+    height: 2rem;
+    width: 2rem;
+  }
+
+  .description {
+    font-size: 1rem;
+  }
+
+  h2 {
+    font-size: 1.5rem;
+    line-height: 2rem;
+  }
+
+  p {
+    font-size: 1rem;
+  }
+}
+
 
 @media (max-width: 425px) {
   .experience {

@@ -8,12 +8,14 @@
   white-space: nowrap;
   right: 2rem;
   top: 1.5rem;
+ 
 }
 
 .menu__list__item a,
 .menu__list__item__contato a {
   font-weight: bold;
   color: var(--color-sec);
+  
 }
 
 .menu__list__item :hover,
@@ -26,10 +28,12 @@
 }
 
 /* Falta el 768*/
-@media (max-width: 768px) {
-  .menu__list__item__contato {
-    display: block;
-  }
+@media (max-width: 800px) {
+ 
+
+.menu__list__item__contato {
+  display: block;
+}
   .menu__list__item__contato a {
     font-weight: bold;
    
@@ -42,10 +46,12 @@
 @media (max-width: 425px) {
   .menu__list__item__contato {
     display: block;
+    
   }
   .menu__list__item__contato a {
     font-weight: 500;
     font-size: .7rem;
     font-weight: bold;
+   
   }
 }

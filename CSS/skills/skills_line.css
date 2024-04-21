@@ -69,6 +69,36 @@
 }
 
 
+@media (max-width:1350px){
+  .skills__scroll {
+    width: 70rem;
+  }
+  .skills__scroll div li {
+    padding: 0.5rem 1rem;
+    font-size: 0.8rem;
+  }
+  .skills__scroll img {
+    height: 4rem;
+    width: 4rem;
+  }
+
+}
+
+
+@media(max-width: 800px) {
+  .skills__scroll {
+    width: 40rem;
+  }
+  .skills__scroll div li {
+    padding: 0.5rem 1rem;
+    font-size: 0.8rem;
+  }
+  .skills__scroll img {
+    height: 4rem;
+    width: 4rem;
+  }
+}
+
 @media(max-width: 425px) {
 
   .skill_conatiner {

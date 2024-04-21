@@ -3,11 +3,8 @@
   gap: 2rem;
   width: 100%;
   padding: 2rem 8rem;
-
   align-items: center;
   justify-content: center;
-
- 
 }
 
 .academic__courses__box {
@@ -44,14 +41,25 @@
 }
 
 .academic__fecha {
-    color: var(--color-primario);
+  color: var(--color-primario);
   text-align: center;
   padding: 1rem;
   font-size: 1rem;
   font-weight: bold;
 }
 
-
+@media (max-width: 800px) {
+  .academic__courses {
+    padding: 2rem 2.5rem;
+  }
+  .academic__courses__box {
+    width: 20rem;
+    
+  }
+  .academic__esco{
+    font-size: 1.3rem;
+  }
+}
 
 @media (max-width: 425px) {
   .academic__courses {

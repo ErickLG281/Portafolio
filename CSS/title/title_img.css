@@ -6,10 +6,12 @@
  }
  
  
- @media (max-width: 768px) {
-    .title__profile {
-       width: 12rem;
-    }
+ @media (max-width: 800px) {
+      .title__profile {
+         width: 20rem;
+         height: 20rem;
+      
+      }
  }
  
  @media (max-width: 425px) {
