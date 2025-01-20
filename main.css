@@ -18,6 +18,7 @@
     margin: 0;
     padding: 0;
     line-height: 1;
+    scroll-behavior: smooth;
 }
 body{
     overflow-x: hidden !important;
@@ -53,3 +54,10 @@ textarea {
         overflow-x: hidden !important;
     }
 }
+
+@media (prefers-reduced-motion: reduce) {
+    html{
+        scroll-behavior: auto;
+    }
+};
+  
